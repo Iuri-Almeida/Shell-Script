@@ -1,0 +1,3 @@
+#! /bin/zsh
+
+w | grep pts | awk '{print $3 " conectado como " $1 " as " $4}'
